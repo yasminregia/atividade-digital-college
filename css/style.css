@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+}
+
+header {
+    background-color: purple;
+    color: aliceblue;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.bloco-lilas {
+    width: 100%;
+    height: 260px;
+    background-color:blueviolet;
+}
+
+main h2 {
+    color: purple;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-bottom: 2px solid blueviolet;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+main p {
+    text-align: left;
+    margin: 3em;
+}
+
+.equipes {
+    text-align: center;
+    margin: 40px 0;
+    color: purple;
+}
+
+section h2 {
+    margin-top: 3em;
+    border-bottom: 2px solid blueviolet;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+}
+
+.membros-da-equipe {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
+
+footer {
+    background-color: purple;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
